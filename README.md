@@ -1,99 +1,60 @@
-﻿# GradPath AI 
+# GradPath AI
 
-**Your Personalized Career Copilot**  
-An intelligent AI agent that acts as a career mentor, learning path builder, and job-prep assistant for aspiring AI/ML professionals.
-
----
-
-## Overview
-
-**GradPath AI** helps students and recent graduates navigate the overwhelming world of AI/ML careers by providing:
-
-- Role-specific learning roadmaps (e.g., Data Scientist, LLM Engineer)
-- Personalized resources (GitHub, YouTube, Coursera)
-- Project ideas & mock interviews
-- LLM memory to refine paths over time
-
-> “There’s a flood of information, but no map.” — That’s what we solve.
+**GradPath AI** is an intelligent academic guidance assistant designed to help students plan, track, and optimize their academic and career journey.  
+Built with modern AI, robust backend services, and a user-friendly interface, GradPath AI streamlines the entire path from admissions to graduation and beyond.
 
 ---
 
-## Problem Statement
+## 📖 Introduction
 
-Many aspiring AI/ML professionals face challenges like:
-
-- No clear starting point or structure
-- Scattered online resources
-- Lack of personalization
-- Generic career guidance
-
-GradPath AI solves this by offering tailored, intelligent, and role-specific career coaching powered by LLMs.
+GradPath AI leverages cutting-edge AI, semantic search, and workflow orchestration to offer personalized, actionable insights for students, educators, and institutions.  
+With its modular design and extensible architecture, it is suitable for universities, edtech platforms, and personal use.
 
 ---
 
-## Research & Background
+## 🚀 Features
 
-- AI job market growing at **35% per year** (LinkedIn 2024)
-- 200,000+ students in the US interested in AI/Data Science
-- Nearly 50% of learners don’t know what to learn next (StackOverflow 2023)
-- Existing tools are fragmented and not personalized
-
----
-
-## Key Features
-
-- **Custom Role Selection** – Choose your target role (e.g., NLP Engineer)
-- **Tailored Learning Paths** – Based on your background, goals, and time
-- **Live Resource Integration** – GitHub, YouTube, Coursera & more
-- **LLM Memory** – Tracks your progress and refines suggestions
-- **Projects & Interview Prep** – Real-world project ideas + mock questions
+- 🧭 **Academic Path Planning:** Dynamic, personalized roadmaps for degrees and certifications.
+- 📊 **Progress Tracking:** Visual dashboards for academic, extracurricular, and career milestones.
+- 🤖 **AI Guidance:** Smart recommendations on courses, research, and internships.
+- 🗂️ **Document & Data Management:** Integration with university records and external data sources.
+- 🌐 **User Portal:** Intuitive web interface (and/or CLI) for interactive guidance.
 
 ---
 
-##  Tech Stack
+## 🛠️ How to Run
 
-| Layer         | Technology                            |
-|--------------|----------------------------------------|
-| **Frontend**  | Streamlit                             |
-| **Backend**   | Python, LangChain, OpenAI GPT-4       |
-| **AI Engine** | GPT-4 + LangChain Chains with Memory  |
-| **Resources** | YouTube API, GitHub Scraper, Coursera |
-| **Data**      | Pandas, NumPy                         |
-| **Deployment**| Streamlit Cloud / Hugging Face Spaces |
-
----
-
-##  How It Works
-
-1. **User selects a career goal**
-2. AI asks for:
-   - Current skill level
-   - Interests
-   - Time commitment
-3. GPT-4 builds a **custom roadmap**
-4. Recommends:
-   - Courses
-   - Projects
-   - Mock interviews
-5. Learner gets an **interactive, evolving guide** based on progress
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/GradPath-AI.git
+    cd GradPath-AI
+    ```
+2. **(Recommended) Create a virtual environment:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+3. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. **Set up environment variables and configs as needed.**
+5. **Run the application:**
+    ```bash
+    streamlit run app.py  # or python main.py, etc
+    ```
 
 ---
 
-## Future Enhancements
+## 🗺️ Architecture Diagram
 
-- User Login & Progress Tracking
-- Feedback loops for roadmap accuracy
-- Visual skill graph
-- Community project submission & peer review
+Below is the architecture and workflow of GradPath AI:
+
+![GradPath AI Architecture](./Updated%20GradPath%20AI.drawio.svg)
+
+> _If the diagram doesn't render, [view the SVG file directly here.](./Updated%20GradPath%20AI.drawio.svg)_
 
 ---
 
-## Getting Started
-
-> Clone the repo and install dependencies:
-
-```bash
-git clone https://github.com/kavya-sree-chandhi/GradpathAI.git
-cd GradpathAI
 
 
