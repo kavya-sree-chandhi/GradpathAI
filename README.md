@@ -1,8 +1,8 @@
 # GradPath AI
 
 ## **Project Summary**
-GradPath AI is an intelligent, AI-powered career copilot for aspiring AI/ML professionals. It acts as a mentor, custom learning path builder, and job-prep assistant.
-Target users: Students, recent graduates, or working professionals aiming for AI/ML roles like Data Scientist, LLM Engineer, Computer Vision Specialist, etc.
+- GradPath AI is an intelligent, AI-powered career copilot for aspiring AI/ML professionals. It acts as a mentor, custom learning path builder, and job-prep assistant.
+- Target users: Students, recent graduates, or working professionals aiming for AI/ML roles like Data Scientist, LLM Engineer, Computer Vision Specialist, etc.
 
 The Core Problem:
 - Students don’t know where to start in AI/ML.
