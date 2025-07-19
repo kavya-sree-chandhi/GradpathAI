@@ -106,6 +106,118 @@ For GradPath AI, we need to keep track of:
 - **arXiv** – [API](https://info.arxiv.org/help/api/index.html)
 - **NewsAPI** – [Docs](https://newsapi.org/)
 
+1. **YouTube Data API**
+**Used For:**
+- Fetching the best AI/ML video tutorials and explainers for the user’s learning roadmap.
+
+## Data Collection (Videos):
+
+```json
+Copy code
+{
+  "title": "Intro to Deep Learning",
+  "description": "A beginner's guide to deep learning concepts.",
+  "channel": "3Blue1Brown",
+  "publishedAt": "2023-06-20T00:00:00Z",
+  "url": "https://youtube.com/watch?v=aircAruvnKk",
+  "tags": ["deep learning", "neural networks"]
+}
+```
+
+2. **GitHub API***
+**Used For:**
+- Recommending trending/open-source AI/ML projects to users for learning and hands-on practice.
+
+## Data Collection (Projects):
+
+```json
+Copy code
+{
+  "name": "awesome-machine-learning",
+  "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
+  "owner": "josephmisiti",
+  "language": "Python",
+  "stars": 60000,
+  "topics": ["machine learning", "deep learning"],
+  "url": "https://github.com/josephmisiti/awesome-machine-learning"
+}
+```
+
+3. **Coursera / Udemy APIs**
+
+**Used For:**
+- Providing the most relevant and up-to-date online courses for each user’s learning path.
+
+## Data Collection (Courses):
+
+```json
+Copy code
+{
+  "title": "Machine Learning by Andrew Ng",
+  "description": "A foundational course on machine learning concepts and algorithms.",
+  "instructor": "Andrew Ng",
+  "provider": "Coursera",
+  "url": "https://coursera.org/learn/machine-learning",
+  "tags": ["machine learning", "supervised learning"]
+}
+```
+
+4. **LinkedIn Jobs (via SerpAPI or scraping)**
+
+**Used For:**
+- Showing real job opportunities tailored to the user’s chosen career path and progress.
+
+## Data Collection (Jobs):
+
+```json
+Copy code
+{
+  "title": "AI Engineer",
+  "company": "Google",
+  "location": "Remote, USA",
+  "postedDate": "2025-07-18T00:00:00Z",
+  "description": "Join our team to build AI solutions.",
+  "url": "https://linkedin.com/jobs/view/1234567890",
+  "tags": ["AI", "Python", "TensorFlow"]
+}
+```
+
+5. **arXiv API**
+**Used For:**
+- Recommending state-of-the-art research papers for advanced learners and upskilling.
+
+## Data Collection (Papers):
+
+``` json
+Copy code
+{
+  "title": "Attention Is All You Need",
+  "authors": ["Ashish Vaswani", "Noam Shazeer"],
+  "abstract": "We propose a new simple network architecture, the Transformer.",
+  "publishedAt": "2017-06-12",
+  "categories": ["cs.CL", "stat.ML"],
+  "url": "https://arxiv.org/abs/1706.03762"
+}
+```
+
+6. **NewsAPI**
+**Used For:**
+- Keeping users updated with the latest news and real-world trends in AI/ML.
+
+## Data Collection (News):
+
+```json
+Copy code
+{
+  "title": "The Rise of AI in Healthcare",
+  "description": "How artificial intelligence is changing medical diagnostics.",
+  "source": "TechCrunch",
+  "author": "Jane Smith",
+  "publishedAt": "2025-07-18T09:00:00Z",
+  "url": "https://techcrunch.com/ai-healthcare"
+}
+```
 ---
+
 
 
