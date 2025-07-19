@@ -21,13 +21,13 @@ Solution:
 ## **Key Features & User Flow**
    
 A. Onboarding
--User selects a target role (e.g., “Data Scientist”)
--User inputs current skills, background, goals, and time commitment
+- User selects a target role (e.g., “Data Scientist”)
+- User inputs current skills, background, goals, and time commitment
 
 B. AI Career Copilot
--GPT-4 (via LangChain) parses user intent and background
--Maps the role to required skills/steps (via role-mapping logic)
--Recommends a custom roadmap: sequential topics, courses, projects
+- GPT-4 (via LangChain) parses user intent and background
+- Maps the role to required skills/steps (via role-mapping logic)
+- Recommends a custom roadmap: sequential topics, courses, projects
 
 C. Resource Aggregation
 Resource Agent fetches:
