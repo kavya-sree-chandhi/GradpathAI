@@ -2,7 +2,7 @@ import requests
 from pymongo import MongoClient
 
 # ====== CONFIGURATION ======
-API_KEY = "AIzaSyC6ErdT3ZJnn4mVzzjw3OM15DFcStHtIIs"    # Replace with your actual key!
+API_KEY = "*****"    # Replace with your actual key!
 queries = ["machine learning tutorial", "deep learning", "AI interview", "NLP tutorial", "data science project", "neural networks lecture", "computer vision crash course", "python for AI", "artificial intelligence basics", "transformer models explained"]  # You can add more queries!
 
 # ====== MONGODB SETUP ======
