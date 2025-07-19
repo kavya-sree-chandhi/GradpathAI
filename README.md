@@ -5,16 +5,16 @@ GradPath AI is an intelligent, AI-powered career copilot for aspiring AI/ML prof
 Target users: Students, recent graduates, or working professionals aiming for AI/ML roles like Data Scientist, LLM Engineer, Computer Vision Specialist, etc.
 
 The Core Problem:
--Students don’t know where to start in AI/ML.
--Resources are overwhelming, scattered, and not tailored.
--No clear, role-specific learning path or ongoing personalized career advice.
+- Students don’t know where to start in AI/ML.
+- Resources are overwhelming, scattered, and not tailored.
+- No clear, role-specific learning path or ongoing personalized career advice.
 
 Solution:
--Personalized, role-specific guidance powered by LLM (GPT-4).
--Builds custom learning roadmaps for each AI/ML target role.
--Fetches live resources (courses, GitHub, YouTube, projects) tailored to user skill gaps.
--Suggests projects, mock interview questions, and tracks progress with memory.
--Conversational AI that adapts and evolves recommendations over time.
+- Personalized, role-specific guidance powered by LLM (GPT-4).
+- Builds custom learning roadmaps for each AI/ML target role.
+- Fetches live resources (courses, GitHub, YouTube, projects) tailored to user skill gaps.
+- Suggests projects, mock interview questions, and tracks progress with memory.
+- Conversational AI that adapts and evolves recommendations over time.
 
 ---
 
@@ -31,19 +31,19 @@ B. AI Career Copilot
 
 C. Resource Aggregation
 Resource Agent fetches:
--Top YouTube videos
--GitHub trending repos/projects
--Up-to-date courses (Coursera, Udemy, etc.)
--Bot presents the roadmap with direct resource links
+- Top YouTube videos
+- GitHub trending repos/projects
+- Up-to-date courses (Coursera, Udemy, etc.)
+- Bot presents the roadmap with direct resource links
 
 D. Interactive Guidance
--Bot suggests project ideas and mock interview questions
--Tracks user progress (optional user login for memory)
--Adapts recommendations over time (conversation memory)
+- Bot suggests project ideas and mock interview questions
+- Tracks user progress (optional user login for memory)
+- Adapts recommendations over time (conversation memory)
 
 E. (Optional, for V2)
--Track learning milestones and provide mentor feedback
--Store user session history and logs for personalized long-term guidance
+- Track learning milestones and provide mentor feedback
+- Store user session history and logs for personalized long-term guidance
 
 ---
 ## **Tech Stack**
@@ -99,29 +99,27 @@ Below is the architecture and workflow of GradPath AI:
 ## **Architecture Overview**
 
 **User**
-Inputs: Role, skills, interests, goals
-
-Outputs: Custom roadmap, resource links, project suggestions
+- Inputs: Role, skills, interests, goals
+- Outputs: Custom roadmap, resource links, project suggestions
 
 **Web App Interface (Streamlit)**
-UI for chat and result display
-
-Collects user inputs and displays AI-generated outputs
+- UI for chat and result display
+- Collects user inputs and displays AI-generated outputs
 
 **AI Agent Core Logic**
-LLM Router: GPT-4 (via LangChain) handles intent parsing and context tracking
+- LLM Router: GPT-4 (via LangChain) handles intent parsing and context tracking
 
-Role Agent: Maps selected role to skills and steps needed (uses static datasets like skills.json, roadmap.csv)
+- Role Agent: Maps selected role to skills and steps needed (uses static datasets like skills.json, roadmap.csv)
 
-Resource Agent: Fetches videos, docs, and GitHub repos via APIs (YouTube, GitHub, Course APIs)
+- Resource Agent: Fetches videos, docs, and GitHub repos via APIs (YouTube, GitHub, Course APIs)
 
 **Database / Memory**
-Stores session data, user history, and logs
+- Stores session data, user history, and logs
 
-Used for progress tracking and personalized recommendations
+- Used for progress tracking and personalized recommendations
 
 **Resource APIs**
-Live data from YouTube, GitHub, course providers (Coursera, Udemy, etc.)
+- Live data from YouTube, GitHub, course providers (Coursera, Udemy, etc.)
 
 
 
