@@ -18,7 +18,7 @@ For GradPath AI, we need to keep track of:
 | skills    | Array   | List of skills          | [Python, AI]      |
 | progress  | Object  | Learning progress       | {courses_done: 2} |
 
-'''json
+```json
 {
   "Users": {
     "name": "String",
