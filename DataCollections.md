@@ -113,7 +113,6 @@ For GradPath AI, we need to keep track of:
 ## Data Collection (Videos):
 
 ```json
-Copy code
 {
   "title": "Intro to Deep Learning",
   "description": "A beginner's guide to deep learning concepts.",
@@ -131,7 +130,6 @@ Copy code
 ## Data Collection (Projects):
 
 ```json
-Copy code
 {
   "name": "awesome-machine-learning",
   "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
@@ -151,7 +149,6 @@ Copy code
 ## Data Collection (Courses):
 
 ```json
-Copy code
 {
   "title": "Machine Learning by Andrew Ng",
   "description": "A foundational course on machine learning concepts and algorithms.",
@@ -170,7 +167,6 @@ Copy code
 ## Data Collection (Jobs):
 
 ```json
-Copy code
 {
   "title": "AI Engineer",
   "company": "Google",
@@ -189,7 +185,6 @@ Copy code
 ## Data Collection (Papers):
 
 ``` json
-Copy code
 {
   "title": "Attention Is All You Need",
   "authors": ["Ashish Vaswani", "Noam Shazeer"],
@@ -207,7 +202,6 @@ Copy code
 ## Data Collection (News):
 
 ```json
-Copy code
 {
   "title": "The Rise of AI in Healthcare",
   "description": "How artificial intelligence is changing medical diagnostics.",
