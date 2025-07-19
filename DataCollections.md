@@ -28,7 +28,7 @@ For GradPath AI, we need to keep track of:
     "skills": ["String"],
     "progress": {"courses_done": "Number"}
   },
-
+```
 
 ### Courses Collection
 
@@ -40,6 +40,16 @@ For GradPath AI, we need to keep track of:
 | provider   | String  | Course platform     | Coursera                  |
 | url        | String  | Course link         | https://coursera.org/...  |
 | tags       | Array   | Topics              | [machine learning, python]|
+
+```json
+"Courses": {
+    "title": "String",
+    "description": "String",
+    "provider": "String",
+    "url": "String",
+    "tags": ["String"]
+  },
+```
 
 ### Jobs Collection
 
@@ -53,6 +63,17 @@ For GradPath AI, we need to keep track of:
 | tags       | Array   | Job skills/keywords | [AI, Python]              |
 | postedDate | Date    | Date posted         | 2025-07-18                |
 
+```json
+ "Jobs": {
+    "title": "String",
+    "company": "String",
+    "location": "String",
+    "url": "String",
+    "tags": ["String"],
+    "postedDate": "DateTime"
+  },
+```
+
 ### Projects Collection
 
 | Field     | Type    | Description             | Example           |
@@ -64,6 +85,15 @@ For GradPath AI, we need to keep track of:
 | stars     | Number  | GitHub stars            | 1234              |
 | topics    | Array   | Repo tags               | [AI, ML]          |
 
+```json
+ "Projects": {
+    "name": "String",
+    "url": "String",
+    "language": "String",
+    "stars": "Number",
+    "topics": ["String"]
+  }
+```
 ---
 
 ## 🔗 API/Data Sources
